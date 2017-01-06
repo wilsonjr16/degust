@@ -1,0 +1,98 @@
+/* reset */
+*, html, body {padding: 0; margin: 0; outline: none;}
+*, *:after, *:before {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html, body{ height: 100%;}
+body { font-weight:normal; font-size: 14px; font-family: 'Fauna One', serif; height: 100%; color: #333; text-align: left; background: #fff;}
+
+a{text-decoration:none; color: #656565;}
+
+img, a img, fieldset {border:0;}
+
+address, em {font-style:normal;}
+ul{ margin-bottom: 0;}
+li {list-style-type:none;}
+
+/* Fontes */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {} p {} a {} h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span,
+h7 span {}
+/* CSS GERAL */
+
+.fleft{ float: left; }
+.fright{ float: right; }
+
+.header{ 
+    background-color: #630f18; 
+    height: 90px;
+    width: 100%;
+}
+.menu-item{ width: 17.5%; position: relative; display: block;}
+.menu-item:nth-child(3){ width: 30%; height: 90px; }
+.menu-link{ 
+    display: block; 
+    height: 90px; 
+    line-height: 90px; 
+    text-align: center; 
+    color: white;
+}
+.logo{ display: block; position: absolute; left: 50%; top: 30px; margin-left: -85.5px; z-index: 2; }
+
+.painel{
+    background: #ffdb23; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#ffdf5d, #ffdb23); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#ffdf5d, #ffdb23); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#ffdf5d, #ffdb23); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#ffdf5d, #ffdb23); /* Standard syntax */
+    width: 100%;
+    padding: 100px 0;
+} 
+.camadas{ margin-bottom: 20px;}
+.col-infos{ margin-top: 300px;}
+
+.sec-tit{
+    font-size: 120px;
+    color: #fd560c;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.sec-tit .red{
+    font-size: 75px;
+    color: #630f18;
+}
+.txt{ 
+    margin: 50px 90px 35px 0;
+    margin-right: 90px;
+    font-size: 19px;
+    color: #630f18;
+    line-height: normal;
+}
+.btn{
+    background: #fd560c;
+    border-radius: 35px;
+    color: white;
+    font-size: 19px;
+    width: 285px;
+    height: 65px;
+    line-height: 65px;
+    padding: 0;
+}
+
+
+.sobre{
+	width: 100%;
+	height: 580px;
+	background: url(../img/bg2.jpg);
+	background-size: cover;
+}
